@@ -28,4 +28,35 @@ p {
     background-color: hsl(0, 0%, 100%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 1rem;
+    padding: 1.5rem 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.title span {
+    border-radius: .5rem;
+    padding: 0.01rem 0.5rem;
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(205, 33%, 90%);
+}
+
+.allRead {
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    color: hsl(219, 12%, 42%);
+}
+
+.allRead:hover {
+    color: hsl(219, 85%, 26%);
 }
