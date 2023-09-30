@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .container {
@@ -59,4 +59,49 @@ p {
 
 .allRead:hover {
     color: hsl(219, 85%, 26%);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.box img:not(.hasan img) {
+    width: 40px;
+}
+
+.hasan {
+    align-items: start;
+}
+
+.status {
+    color: #5e6778;
+}
+
+.tour {
+    font-weight: 800;
+}
+
+.message {
+    padding: 16px;
+    margin: 8px 0 0;
+    border-radius: 0.3rem;
+    border: 1px solid hsl(211, 68%, 94%);
+    color: #5e6778;
+}
+
+strong {
+    color: hsl(224, 21%, 14%);
+}
+
+.time {
+    color: hsl(219, 14%, 63%)
+}
+
+.chess_club {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
 }
