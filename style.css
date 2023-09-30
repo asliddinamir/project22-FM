@@ -55,6 +55,7 @@ p {
     border: none;
     cursor: pointer;
     color: hsl(219, 12%, 42%);
+    user-select: none;
 }
 
 .allRead:hover {
@@ -70,6 +71,7 @@ p {
     padding: 16px;
     margin: 16px 0;
     cursor: pointer;
+    user-select: none;
 }
 
 .unread {
