@@ -70,7 +70,6 @@ p {
     padding: 16px;
     margin: 16px 0;
     cursor: pointer;
-    position: relative;
 }
 
 .unread {
@@ -117,6 +116,18 @@ strong:hover {
     color: hsl(219, 85%, 26%);
 }
 
+.dot {
+    display: inline-block;
+    background: hsl(1, 90%, 64%);
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    margin-left: .1rem;
+}
+
+.hidden {
+    display: none;
+}
 
 .time {
     color: hsl(219, 14%, 63%);
@@ -129,9 +140,8 @@ strong:hover {
 }
 
 .chess {
-    position: absolute;
-    right: 15px;
     cursor: pointer;
+    margin-left: auto;
 }
 
 footer {
@@ -151,4 +161,18 @@ footer a {
     }
 }
 
-@medi
+@media(max-width:306px) {
+    .title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .allRead {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
