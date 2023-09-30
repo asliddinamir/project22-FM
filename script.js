@@ -13,7 +13,6 @@ function removeDotFromBox(box) {
             num--;
             notification.innerText = num;
         }
-
     }
 }
 
